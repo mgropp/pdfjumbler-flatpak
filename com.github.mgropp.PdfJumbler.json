@@ -4,7 +4,7 @@
     "runtime-version": "26.08",
     "command": "pdfjumbler",
     "sdk": "org.freedesktop.Sdk",
-    "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk11"],
+    "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk21"],
     "finish-args": [
         "--env=PATH=/app/jre/bin:/app/bin:/usr/bin",
         "--env=JAVA_HOME=/app/jre",
@@ -36,7 +36,7 @@
             "name": "pdfjumbler",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk11/install.sh",
+                "/usr/lib/sdk/openjdk21/install.sh",
                 "install -d /app/pdfjumbler/",
                 "mv pdfjumbler.jar /app/pdfjumbler/",
                 "install -Dm755 pdfjumbler.sh /app/bin/pdfjumbler"
@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://github.com/mgropp/pdfjumbler/releases/download/v0.4.0/pdfjumbler.jar",
-                    "sha256": "551b29996f6e4e4aeedf8b9cf18ef42dcdd467948b7e6a72cd5711a619efd18d"
+                    "url": "https://github.com/mgropp/pdfjumbler/releases/download/v-0.5.1/pdfjumbler.jar",
+                    "sha256": "c4416f0ae8b4294d22dc047effca80510b6c4159e03ca017178bc0ae3f73f749"
                 },
                 {
                   "type": "file",

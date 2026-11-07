@@ -23,7 +23,6 @@
     <release version="0.5.1" date="2026-11-07">
     <description>
       <ul>
-        <li>Big refactor</li>
         <li>Save action labeled "Save document as" in all languages</li>
         <li>Toolbar button to toggle the clipboard panel</li>
         <li>Fix generic task switcher icon on Linux</li>

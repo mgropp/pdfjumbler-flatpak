@@ -4,7 +4,7 @@ LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/app/lib/
 LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/app/jre/lib/
 LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib
 
-VM_ARGS="-Xms512m -Xmx2048m"
+VM_ARGS="-Xmx2048m"
 
 cd /app/pdfjumbler
 export LD_LIBRARY_PATH

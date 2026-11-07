@@ -51,7 +51,8 @@
                 },
                 {
                   "type": "file",
-                  "path": "pdfjumbler.svg"
+                  "url": "https://raw.githubusercontent.com/mgropp/pdfjumbler/v-0.5.1/src/main/resources/icons/pdfjumbler.svg",
+                  "sha256": "c30106501eb650649e56dad93423c320c1ddc10e389484c48cad767b1417088b"
                 }
             ]
         }

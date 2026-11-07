@@ -10,4 +10,4 @@ cd /app/pdfjumbler
 export LD_LIBRARY_PATH
 
 # If graphical problems occur, it may need to add -Dsun.java2d.opengl=true and/or -Dsun.java2d.noddraw=true
-${JAVA} ${VM_ARGS} -Dfile.encoding=UTF-8 -Djava.library.path="${LD_LIBRARY_PATH}" -jar pdfjumbler.jar "${@}"
+exec ${JAVA} ${VM_ARGS} -Dfile.encoding=UTF-8 -Djava.library.path="${LD_LIBRARY_PATH}" -jar pdfjumbler.jar "${@}"

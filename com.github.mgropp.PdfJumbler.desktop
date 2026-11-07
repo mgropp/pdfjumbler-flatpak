@@ -10,3 +10,4 @@ MimeType=application/pdf;
 Categories=Development;Office;
 Keywords=pdf;pdf-editor;
 StartupNotify=false
+StartupWMClass=io-gropp-pdfjumbler-PdfJumbler

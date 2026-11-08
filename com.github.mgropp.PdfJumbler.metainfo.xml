@@ -12,7 +12,7 @@
   </description>
   <screenshots>
     <screenshot type="default">
-    <image type="source">https://github.com/mgropp/pdfjumbler/raw/master/screenshots/screenshot01.png</image>
+    <image type="source">https://raw.githubusercontent.com/mgropp/pdfjumbler/v-0.5.1/screenshots/screenshot01.png</image>
     <caption>Main screen</caption>
     </screenshot>
   </screenshots>

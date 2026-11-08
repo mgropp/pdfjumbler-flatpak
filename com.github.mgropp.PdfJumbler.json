@@ -12,7 +12,6 @@
         "--share=ipc",
         "--socket=x11",
         "--device=dri",
-        "--socket=pulseaudio",
         "--filesystem=home",
         "--persist=.java"
     ],
